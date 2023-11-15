@@ -1,6 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;400;500;600;700;800&display=swap");
-img {
+body {
+  background-color: #FAFAF9;
+  display: flex;
+  justify-content: center;
+  padding-top: 164px;
+  font-family: "Sora";
+}
+
+.card {
+  background-color: #FFFFFF;
+  width: 336px;
+  padding: 16px;
+  box-shadow: 10px 10px 50px #E5EAF0;
+  border-radius: 12px;
+}
+.card img {
   max-width: 100%;
+  border-radius: 4px;
+}
+.card .themeTag {
+  background-color: #E6D6FC;
+  padding: 6px 16px;
+  font-size: 10px;
+  display: inline-block;
+  color: #883AE1;
+  border-radius: 100px;
+}
+.card .themeTag h3 {
+  margin: 0;
+  font-weight: 600;
+}
+.card .cardTitle {
+  font-size: 18px;
+  margin-top: 16px;
+}
+.card .description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #6C727F;
+}
+.card .autorContainer {
+  margin: 20px 0px 20px 0px;
+  border-top: 1px solid #E5EAF0;
+}
+.card .autorContainer h4 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #6C727F;
 }
 
 /*# sourceMappingURL=styles.css.map */
