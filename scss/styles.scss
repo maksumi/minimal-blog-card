@@ -8,12 +8,15 @@ $carbon: #20293A;
 $gris-oscuro: #6C727F;
 
 body {
- background-color: $crema;
- display: flex;
- justify-content: center;
- padding-top: 164px;
- font-family: 'Sora'
+    background-color: $crema;
+    font-family: 'Sora';
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
+
 
 .card {
     background-color: $blanco;
